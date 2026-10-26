@@ -2,8 +2,6 @@ node_modules/
 dist/
 build/
 .wrangler/
-.env
-.env.local
 .env.*.local
 .dev.vars
 *.log
@@ -13,7 +11,6 @@ yarn-error.log*
 pnpm-debug.log*
 .DS_Store
 .gemini/
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -25,3 +22,4 @@ tmp/
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
